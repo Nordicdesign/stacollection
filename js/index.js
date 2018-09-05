@@ -46,12 +46,15 @@ let findCollectionType = function(data) {
 };
 
 // DRAW SOMETHING ===================================
-let drawCollectionType = function(type) {
+let drawCollectionType = function(type, day) {
 
+  if (day) {
+    document.querySelector('h2').innerText = 'Hola, it is today';
+  }
   if (type == 'green') {
       document.querySelector('#green').classList.remove('hidden')
   }
-  if (type == 'landfill') {
+  else if (type == 'landfill') {
       document.querySelector('#landfill').classList.remove('hidden')
   }
 }
@@ -63,5 +66,5 @@ let drawCollectionType = function(type) {
 function initiate() {
   const isCollection = isCollectionDay();
   const type = findCollectionType(collectionCalendar);
-  drawCollectionType(type);
+  drawCollectionType(type, isCollection);
 }
