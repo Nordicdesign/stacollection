@@ -1,0 +1,8 @@
+{
+  "name": "sta-collection",
+  "version": "0.0.1",
+  "description": "Display what's your next garbage collection in St Albans",
+  "main": "index.js",
+  "author": "Alex Lillo <alex.lillo@gmail.com>",
+  "license": "MIT"
+}
