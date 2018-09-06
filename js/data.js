@@ -1,6 +1,6 @@
 const collectionCalendar = [
   {
-    "day": 03,
+    "day": 3,
     "month": 9,
     "year": 2018,
     "weeknumber": 36,
