@@ -1,0 +1,21 @@
+@import "reset";
+@import "variables";
+@import "typography";
+
+
+.container {
+  width: 96%;
+  max-width: 400px;
+  margin: 35vh auto;
+  text-align: center;
+
+  p {
+    padding: $baseline*2;
+    font-size: 3rem;
+    border: 1px solid $gray-light;
+    border-radius: $border-radius
+  }
+}
+p.hidden {
+  display: none;
+}

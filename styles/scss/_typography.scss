@@ -1,0 +1,27 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: $fontstack;
+	color: $gray-dark;
+}
+
+
+a {
+	color: $color-action;
+}
+
+p {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	margin-bottom: $baseline/2;
+	font-weight: 400;
+}
+
+
+
+h1 {
+  margin: 0 0 $baseline;
+  font-size: 2rem;
+	font-weight: 400;
+}
