@@ -73,7 +73,7 @@ let findCollectionType = function(data, day) {
 let drawCollectionType = function(type, day) {
 
   if (day === "today") {
-    document.querySelector('h2').innerText = 'Hola, it is today';
+    document.querySelector('h1').innerText = 'Hola, it is today';
   }
   if (type == 'green') {
       document.querySelector('#green').classList.remove('hidden')
