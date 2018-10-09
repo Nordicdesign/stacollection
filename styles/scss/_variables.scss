@@ -1,0 +1,18 @@
+// CONFIG
+$fontstack: helvetica, arial, sans-serif;
+
+// spacing
+$baseline: 16px;
+
+$border-radius: 8px;
+
+//== Colors
+$color-action: tomato;
+$color-primary: green;
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 15.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             #bbb;
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
